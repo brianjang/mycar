@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FindCar</string>
+    
+    <!-- Navigation Drawer Strings -->
+    <string name="nav_header_title">FindCar</string>
+    <string name="nav_header_subtitle">Find your perfect car</string>
+    <string name="nav_header_desc">Navigation header</string>
+    
+    <!-- Menu Items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_search">찾기</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_add">추가</string>
+    
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <string name="search_hint">Search...</string>
+    <string name="delete_car">Delete car</string>
+    <string name="modify_car">Modify car</string>
+    <string name="welcome_message">Welcome to FindCar</string>
+
+    <!-- Modify Dialog Strings -->
+    <string name="name">Name</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="phone">Phone</string>
+    <string name="depart">Department</string>
+    <string name="model">Model</string>
+</resources>
