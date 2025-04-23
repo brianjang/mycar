@@ -53,8 +53,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             setOf(
                 R.id.nav_home,
                 R.id.nav_search,
-                R.id.nav_settings,
-                R.id.nav_help,
                 R.id.nav_add
             ),
             binding.drawerLayout
@@ -67,8 +65,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_home -> navController.navigate(R.id.nav_home)
             R.id.nav_search -> navController.navigate(R.id.nav_search)
             R.id.nav_add -> navController.navigate(R.id.nav_add)
-            R.id.nav_settings -> navController.navigate(R.id.nav_settings)
-            R.id.nav_help -> navController.navigate(R.id.nav_help)
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)
         return true
